@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Workshops</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Poetry Workshop</h1>
+    <p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+    <p>Please note that the following events are free to members</p>
+
+    <div>
+        <ol>
+            <li>A Poetic Perspective</li>
+            <li>Walt Whitman at War</li>
+            <li>Found Poems and Outsider Poetry</li>
+        </ol>
+    </div>
+
+    <div>
+        <table>
+            <tr id="header">
+                <th></th>
+                <th>New York</th>
+                <th>Chicago</th>
+                <th>San Francisco</th>
+            </tr>
+
+            <tr id="first">
+                <th>A Poetic Perspective</th>
+                <td>Sat. 4 Feb 2023 <br> 11am - 2pm</td>
+                <td>Sat. 3 Mar 2023 <br> 11am - 2pm</td>
+                <td>Sat. 17 Mar 2023 <br> 11am - 2pm</td>
+            </tr>
+
+            <tr id="second">
+                <th>Walt Whitman at War</th>
+                <td>Sat. 7 Apr 2023 <br> 11am - 1pm</td>
+                <td>Sat. 5 May 2023 <br> 11am - 1pm</td>
+                <td>Sat. 19 May 2023 <br> 11am - 1pm</td>
+            </tr>
+
+            <tr id="first">
+                <th>Found Poems & Outsider</th>
+                <td>Sat. 9 Jun 2023 <br> 11am - 2pm</td>
+                <td>Sat. 7 Jul 2023 <br> 11am - 2pm</td>
+                <td>Sat. 21 Jul 2023 <br> 11am - 2pm</td>
+            </tr>
+
+            <tr id="second">
+                <th>Natural Death: An Exploration</th>
+                <td>Sat. 4 Aug 2023 <br> 11am - 4pm</td>
+                <td>Sat. 8 Sep 2023 <br> 11am - 4pm</td>
+                <td>Sat. 15 Sep 2023 <br> 11am - 4pm</td>
+            </tr>
+        </table>
+    </div>
+
+    <fieldset>
+        <legend>Register your interest</legend>
+        <div>
+            <label for="username">Your name:</label>
+            <input type="text" id="username" required>
+        </div>
+        <div>
+            <label for="email">Your email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div>
+            <form action="#center">
+                <p>Your closest center:
+                    <select name="center" id="center" required>
+                        <option value="newyork">New York</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="sanfrancisco">San Francisco</option>
+                    </select>
+                </p>
+            </form>
+        </div>
+
+        <div>
+            <form action="#member">
+                <p>Are you a member?
+                    <input type="radio" name="member" id="member" value="y">
+                    <label for="member">Yes</label>
+                    <input type="radio" name="member" id="member" value="n">
+                    <label for="member">No</label>
+                </p>
+            </form>
+        </div>
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+
+
+    </fieldset>
+
+</body>
+
+</html>
